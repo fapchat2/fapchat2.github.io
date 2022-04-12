@@ -1,0 +1,769 @@
+@width: 57.8125%;
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    // background-color: rgba(40, 40, 40, 1);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover,
+button:hover,
+input[type="submit"] {
+    cursor: pointer;
+}
+
+button {
+    padding: 15px 30px;
+    background: #998431;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    border: none;
+    letter-spacing: 0.05em;
+    color: white;
+    text-align: center;
+
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    -moz-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    -o-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+button:hover,
+button:focus {
+    cursor: pointer;
+    color: #998431;
+    outline: 0;
+    box-shadow: 0 0 40px 40px white inset;
+}
+
+.outer-sec {
+    background: url("../images/bgc.jpg") no-repeat;
+    width: 100%;
+    height: 50vh;
+    background-size: 100% auto;
+}
+
+header {
+    width: @width;
+    margin: auto;
+}
+
+header .adress-and-number {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav div {
+    width: 100%;
+    border: 1px solid #ffffff;
+    height: 47px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+header nav a::after {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: #ffffff;
+    transition: width 0.3s;
+}
+
+header a:hover::after {
+    width: 100%;
+}
+
+
+
+header nav div:nth-child(1) {
+    border-left: none;
+    border-right: none;
+}
+header nav div:nth-child(2) {
+    border-right: none;
+}
+header nav div:nth-child(3) {
+    border-right: none;
+}
+header nav div:nth-child(4) {
+    border-right: none;
+}
+
+.outer-sec > section {
+    width: 21.614583333%;
+    margin: auto;
+}
+
+.outer-sec > section > div {
+    // margin-bottom: 150px;
+    //
+    display: flex;
+    justify-content: space-between;
+    margin-top: 433px;
+}
+
+body > .best-taste {
+    background: rgba(40, 40, 40, 1);
+    height: auto;
+    overflow: hidden;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+}
+
+body > .best-taste > div {
+    border: 3px solid rgba(196, 196, 196, 1);
+    width: @width;
+    height: 656px;
+
+    margin: 100px auto;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+body > .best-taste > div > div {
+    height: 536px;
+    width: 66.306306306%;
+
+    h1 {
+        margin-top: 60px;
+        font-family: Playfair Display;
+        font-size: 36px;
+        line-height: 54px;
+        letter-spacing: 0em;
+        font-weight: 600;
+    }
+
+    hr {
+        margin-top: 40px;
+        width: 160px;
+        margin: auto;
+    }
+
+    article {
+        margin-top: 40px;
+
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    img {
+        margin-top: 50px;
+    }
+}
+
+.harvest {
+    background: #e6e3c4;
+    overflow: hidden;
+
+    > div {
+        margin: 80px auto;
+        padding: 60px 0;
+        width: @width;
+        overflow: hidden;
+
+        border-top: 1px solid rgba(153, 132, 49, 1);
+        border-bottom: 1px solid rgba(153, 132, 49, 1);
+
+        .inner-harvest {
+            width: 40.09009009%;
+            text-align: left;
+            color: black;
+            float: left;
+
+            h1 {
+                font-family: "Montserrat";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+            }
+            h2 {
+                font-family: "Playfair Display";
+                font-size: 36px;
+                line-height: 150%;
+                margin-top: 30px;
+            }
+            hr {
+                margin-top: 30px;
+                width: 160px;
+            }
+            article {
+                font-family: "Montserrat";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 150%;
+                margin-top: 30px;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+
+                tr {
+                    td:nth-child(1) {
+                        padding-right: 24px;
+                        border-right: 1px solid #282828;
+                    }
+
+                    td:nth-child(2) {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        h3 {
+                            margin-top: 10px;
+
+                            font-family: "Playfair Display";
+                            font-size: 18px;
+                            line-height: 150%;
+                        }
+                        p {
+                            margin-bottom: 15px;
+
+                            font-family: "Montserrat";
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 150%;
+                        }
+                    }
+                }
+
+                tr:nth-child(1),
+                tr:nth-child(2) {
+                    border-bottom: 1px solid #000;
+                }
+            }
+            > div {
+                margin-top: 30px;
+            }
+        }
+
+        .photos {
+            width: 48.648648648%;
+            float: right;
+            [src="images/harvest/glass.jpg"] {
+                width: 100%;
+            }
+
+            [src="images/harvest/bottles1.jpg"] {
+                float: left;
+                width: 47.222222222%;
+                margin-top: 3%;
+            }
+            [src="images/harvest/bottles2.jpg"] {
+                float: right;
+                width: 47.222222222%;
+                margin-top: 3%;
+            }
+        }
+    }
+}
+
+.harvest:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+section.degustation {
+    background: rgba(40, 40, 40, 1);
+    overflow: hidden;
+    .degustation-wrapper {
+        width: @width;
+        margin: 100px auto;
+        overflow: hidden;
+        border: 3px solid rgba(196, 196, 196, 1);
+        > h1 {
+            position: absolute;
+            font-family: "Playfair Display";
+            font-size: 36px;
+            line-height: 150%;
+            text-align: center;
+
+            left: 50%;
+            transform: translate(-50%, -100%);
+
+            z-index: 20;
+            background: rgba(40, 40, 40, 1);
+            padding: 0 50px;
+        }
+        > img[src="images/degustation/grape.png"] {
+            position: absolute;
+            left: 25%;
+            transform: translate(-50%, -30%);
+        }
+
+        > img[src="images/degustation/barrel.jpg"] {
+            position: absolute;
+            left: 75%;
+            transform: translate(-50%, -30%);
+        }
+
+        > div {
+            display: flex;
+            flex-direction: column;
+            width: 48.648648648%;
+            margin: auto;
+            margin-bottom: 80px;
+            > hr {
+                width: 21.851851851%;
+                margin: auto;
+                margin-top: 40px;
+            }
+            > article {
+                margin-top: 40px;
+                text-align: center;
+
+                font-family: "Montserrat";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+            }
+
+            > form {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                // margin: auto;
+                div {
+                    width: 100%;
+                    margin-top: 81px;
+                    display: flex;
+                    flex-direction: row;
+                    input {
+                        width: 47.222222222%;
+                    }
+                    input[placeholder="Телефон"] {
+                        margin-left: 5.5%;
+                    }
+                }
+                input:not([type="submit"]) {
+                    border: none;
+                    border-bottom: 1px solid #bdbdbd;
+                    padding: 1rem 0.75rem;
+                    background-color: rgba(40, 40, 40, 1);
+                    color: white;
+                }
+                input::placeholder {
+                    color: white;
+
+                    font-family: "Montserrat";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 13px;
+                    line-height: 150%;
+                }
+
+                input:focus {
+                    outline: 0;
+                    // box-shadow: none;
+                }
+                input[placeholder="Бутик на Невском 103"] {
+                    margin-top: 40px;
+                    width: 100%;
+                }
+                input[type="submit"] {
+                    margin-top: 50px;
+                    width: 100%;
+                    padding: 15px 30px;
+                    border: 1px solid #ffffff;
+                    text-transform: uppercase;
+                    background: rgba(40, 40, 40, 1);
+                    color: white;
+
+                    font-family: "Montserrat";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 20px;
+
+                    -webkit-transition: box-shadow 300ms ease-in-out,
+                        color 300ms ease-in-out;
+                    -moz-transition: box-shadow 300ms ease-in-out,
+                        color 300ms ease-in-out;
+                    -o-transition: box-shadow 300ms ease-in-out,
+                        color 300ms ease-in-out;
+                    transition: box-shadow 300ms ease-in-out,
+                        color 300ms ease-in-out;
+                }
+
+                input[type="submit"]:hover,
+                input[type="submit"]:focus {
+                    cursor: pointer;
+                    color: rgba(40, 40, 40, 1);
+                    outline: 0;
+                    box-shadow: 0 0 40px 40px white inset;
+                }
+
+
+            }
+        }
+    }
+}
+
+footer {
+    background: rgba(153, 132, 49, 1);
+    overflow: hidden;
+    > div {
+        width: @width;
+        border-top: 1px solid #ffffff;
+        // border-bottom: 1px solid #ffffff;
+        margin: 50px auto;
+
+        nav {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            div {
+                width: 83.063063063%;
+
+                display: flex;
+                justify-content: space-between;
+                // align-items: center;
+            }
+        }
+        > div {
+            text-transform: uppercase;
+            display: grid;
+            grid-template-columns: 31.531531531% 21.171171171% 23.423423423% 23.873873873%;
+            > div {
+                // width: 100%;
+                border: 1px solid #ffffff;
+                border-left: none;
+
+                height: 60px;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            > div:nth-child(3) {
+                > div {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 53.626923076%;
+                }
+                // justify-content: space-around;
+            }
+            > div:nth-child(4) {
+                border-right: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 2080px) {
+    .outer-sec {
+        background-size: cover;
+    }
+}
+
+@media (max-width: 1820px) {
+    .outer-sec > section {
+        width: 410px;
+    }
+    .outer-sec > section > div {
+        margin-top: 200px;
+    }
+
+    body > .best-taste > div > div {
+        h1 {
+            margin-top: 20px;
+        }
+
+        hr {
+            margin-top: 20px;
+        }
+
+        article {
+            margin-top: 20px;
+        }
+
+        img {
+            margin-top: 25px;
+        }
+    }
+}
+
+@media (max-width: 1600px) {
+    .harvest > div .inner-harvest table tr td:nth-child(2) h3 {
+        font-size: 14px;
+    }
+    .harvest > div .inner-harvest table tr td:nth-child(2) p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .harvest > div {
+        width: 90%;
+    }
+
+    section.best-taste {
+        div {
+            height: auto;
+            width: 80%;
+            div {
+                height: auto;
+            }
+        }
+    }
+
+    section.degustation .degustation-wrapper {
+        width: 87%;
+    }
+
+    section.degustation .degustation-wrapper > div {
+        width: 87%;
+    }
+
+    section.degustation .degustation-wrapper > img {
+        display: none;
+    }
+
+    section.degustation .degustation-wrapper > h1 {
+        width: 60%;
+    }
+
+    footer {
+        height: 260px;
+        a, p {
+            font-weight: 500;
+        }
+
+        a::after {
+            content: "";
+            display: block;
+            width: 0px;
+            height: 2px;
+            background: #ffffff;
+            transition: width 0.4s;
+            margin: auto;
+        }
+        
+        a:hover::after {
+            width: 100px;
+        }
+
+        > div {
+            border: none;
+            width: 100%;
+            margin: 50px auto;
+            nav {
+                flex-direction: column;
+                div {
+                    flex-direction: column;
+                    text-align: center;
+                }
+
+            }
+            > div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 48px;
+                border-top: 1px solid #000;
+                > div {
+                    border: none;
+                    display: block;
+                    height: auto;
+                    margin-top: 3px;
+                }
+                > div:nth-child(3) > div {
+                    width: 111px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 940px) {
+    header {
+        width: 96%;
+        margin: auto;
+    }
+    .outer-sec > section > div {
+        margin-top: 10px;
+    }
+
+    section.best-taste > div {
+        width: 96%;
+        margin: 18px auto;
+    }
+
+    body > .best-taste > div > div {
+        width: 88%;
+    }
+
+    body > .best-taste > div > div h1 {
+        font-size: 26px;
+        margin-top: 1px;
+    }
+
+    .harvest > div .inner-harvest {
+        width: AUTO;
+    }
+    .harvest > div .photos {
+        float: NONE;
+        width: AUTO;
+    }
+
+    .harvest > div .inner-harvest > div {
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 680px) {
+    button {
+        padding: 10px 20px;
+
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    header {
+        width: 96%;
+        margin: auto;
+    }
+
+    .outer-sec > section {
+        width: 320px;
+    }
+
+    .outer-sec > section > div {
+        margin-top: 10px;
+        justify-content: space-around;
+    }
+
+    .harvest > div {
+        margin: 17px auto;
+        padding-top: 0px;
+        padding-bottom: 17px;
+    }
+
+    .harvest > div .inner-harvest h2 {
+        margin-top: 10px;
+    }
+
+    .harvest > div .inner-harvest hr {
+        margin-top: 15px;
+    }
+
+    .harvest > div .inner-harvest article {
+        margin-top: 16px;
+    }
+
+    section.degustation .degustation-wrapper {
+        margin: 18px auto;
+    }
+
+    section.degustation .degustation-wrapper > div {
+        width: 88%;
+        margin-bottom: 40px;
+    }
+
+    section.degustation .degustation-wrapper > h1 {
+        position: relative;
+        font-size: 26px;
+        width: auto;
+        transform: translate(-50%, -00%);
+        padding: 0;
+    }
+
+    section.degustation .degustation-wrapper > div > hr {
+        margin-top: -3px;
+    }
+
+    section.degustation .degustation-wrapper > div > article {
+        margin-top: 15px;
+    }
+
+    section.degustation .degustation-wrapper > div > form div {
+        margin-top: 18px;
+    }
+}
+
+@media (max-width: 380px) {
+    button {
+        padding: 8px 16px;
+    }
+    .outer-sec > section {
+        width: 300px;
+    }
+
+    .harvest > div .inner-harvest table tr td {
+        margin-left: 6px;
+    }
+    header .adress-and-number {
+        flex-direction: column;
+
+        justify-content: flex-start;
+    }
+}
+
+@media (max-height: 1200px) and (min-width: 1000px) {
+    .outer-sec > section > div {
+        margin-top: 100px;
+    }
+}
+
+@media (min-width: 2200px) {
+    body > .best-taste > div {
+        height: 580px;
+    }
+}
